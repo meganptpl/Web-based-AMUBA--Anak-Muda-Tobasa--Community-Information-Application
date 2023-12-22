@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+
+.judulList {
+     margin-bottom: 100px;
+}
+
+.navbar2 {
+     background-color: 	#20B2AA;
+}
+
+footer {
+     background-color: #20B2AA;
+}
+body {
+     height: 100%;
+}
+
+section {
+     position: relative;
+     margin: 0;
+     padding: 0;
+     background: linear-gradient(360deg, #ee7752, #eb608c, #23d5ab, rgb(0, 112, 170));
+     background-size: 200% 300%;
+     animation: change 12s ease-in-out infinite;
+}
+
+@keyframes change {
+     0% {
+          background-position: 0 0%;
+     }
+     50% {
+          background-position: 50% 100%;
+     }
+     100% {
+          background-position: 100% 0;
+     }
+}
+
+.juduljbt {
+     padding-top: 70px;
+     padding-bottom: 70px;
+     font-weight: 700;
+     font-size: 3rem;
+     color: blanchedalmond;
+     font-family: "Fantasy", cursive;
+     text-shadow: 2px 5px #000000;
+}
+.btn {
+     border: none;
+}
+.bi-whatsapp,
+.bi-instagram {
+     font-size: 2rem;
+}
+.ikon {
+     text-align: center;
+}
+.card {
+     background: blanchedalmond;
+     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+     border-radius: 20px;
+}
+.card:hover {
+     box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.2);
+     transform: scale(1.02);
+     transition: transform 850ms;
+}
+
+.card-body p {
+     font-weight: 700;
+     font-size: 1.2rem;
+}
+
+.navbar-brand {
+     font-family: "Merienda One", cursive;
+}
